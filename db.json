@@ -1,0 +1,420 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Adrian Meza",
+      "rfc": "MEMA891025U40"
+    },
+    {
+      "name": "Juan Mendez Garcia",
+      "rfc": "MEMA891025I90",
+      "id": 2
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "account_number": "300122391123",
+      "card_number": "4145918288393939",
+      "product": "HEY Banco",
+      "balance": 100,
+      "clientId": 1
+    },
+    {
+      "id": 2,
+      "account_number": "300122391121",
+      "card_number": "4145918288393932",
+      "product": "Banregio Mas",
+      "balance": -100,
+      "clientId": 1
+    },
+    {
+      "id": 3,
+      "account_number": "300122391124",
+      "card_number": "4145918288393931",
+      "product": "Naranja Flex",
+      "balance": 300,
+      "clientId": 1
+    },
+    {
+      "id": 4,
+      "account_number": "300122391411",
+      "card_number": "4145918288393933",
+      "product": "HEY Banco",
+      "balance": 1000,
+      "clientId": "2"
+    }
+  ],
+  "transactions": [
+    {
+      "accountId": 1,
+      "transaction_number": "73188728",
+      "reference_number": "25730005",
+      "description": "ALIMENTOS POLANCO S.A. DE C.V.",
+      "amount": "-139.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-08",
+      "business": {
+        "name": "ALIMENTOS POLANCO S.A. DE C.V.",
+        "activity": {
+          "name": "Restaurante Bar"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "RESTAURANTE BAR",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 1,
+      "transaction_number": "48929530",
+      "reference_number": "49004984",
+      "description": "CASA CALLI COSTA AZUL S DE RL DE CV",
+      "amount": "-829.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-09",
+      "business": {
+        "name": "CASA CALLI COSTA AZUL S DE RL DE CV",
+        "activity": {
+          "name": "Restaurante Bar"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "RESTAURANTE BAR",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "17016612",
+      "reference_number": "11547129",
+      "description": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+      "amount": "-38.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-10",
+      "business": {
+        "name": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+        "activity": {
+          "name": "Compra-Venta De Productos Alimentcios Y Cerveza"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "COMPRA-VENTA DE PRODUCTOS ALIMENTCIOS Y CERVEZA",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "13656089",
+      "reference_number": "66436744",
+      "description": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+      "amount": "-94.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-10",
+      "business": {
+        "name": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+        "activity": {
+          "name": "Tienda De Auto Servicio"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "TIENDA DE AUTO SERVICIO",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 3,
+      "transaction_number": "26379548",
+      "reference_number": "10518304",
+      "description": "MINI SUPER JESUS",
+      "amount": "-188.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-11",
+      "business": {
+        "name": "MINI SUPER JESUS",
+        "activity": {
+          "name": "Supermercado"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "SUPERMERCADO",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 3,
+      "transaction_number": "79942904",
+      "reference_number": "91475305",
+      "description": "Persona Física",
+      "amount": "-111.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-12",
+      "business": {
+        "name": "Persona Física",
+        "activity": {
+          "name": "Farmacia"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "FARMACIA",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "01693645",
+      "reference_number": "47268340",
+      "description": "TEQUILA HOUSE II",
+      "amount": "-1107.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-13",
+      "business": {
+        "name": "TEQUILA HOUSE II",
+        "activity": {
+          "name": "Supermercado"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "SUPERMERCADO",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 1,
+      "transaction_number": "28817291",
+      "reference_number": "96670897",
+      "description": "MINISUPER LEO",
+      "amount": "-158.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-13",
+      "business": {
+        "name": "MINISUPER LEO",
+        "activity": {
+          "name": "Minisuper"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "MINISUPER",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 1,
+      "transaction_number": "51710408",
+      "reference_number": "08549235",
+      "description": "CIA HOTELERA DE LA MESA SA DE CV",
+      "amount": "-4163.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-14",
+      "business": {
+        "name": "CIA HOTELERA DE LA MESA SA DE CV",
+        "activity": {
+          "name": "Restaurante"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "RESTAURANTE",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 3,
+      "transaction_number": "28246923",
+      "reference_number": "91398840",
+      "description": "GRUPO GENDE S.A. DE C.V.",
+      "amount": "-348.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-15",
+      "business": {
+        "name": "GRUPO GENDE S.A. DE C.V.",
+        "activity": {
+          "name": "Gasolineria"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "GASOLINERIA",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "54217645",
+      "reference_number": "16332898",
+      "description": "Pago de Nomina 2018-11-15 ",
+      "amount": "8107.00",
+      "status": "A",
+      "type": "2",
+      "date": "2018-11-15",
+      "business": null,
+      "details": {
+        "category": "CUENTA",
+        "product": "",
+        "subcategory": "CHEQUE",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "08761088",
+      "reference_number": "67873609",
+      "description": "UNIFORMES MARIA ELENA",
+      "amount": "-158.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-15",
+      "business": {
+        "name": "UNIFORMES MARIA ELENA",
+        "activity": {
+          "name": "Confeccion De Uniformes Medicos"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "CONFECCION DE UNIFORMES MEDICOS",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 3,
+      "transaction_number": "54884540",
+      "reference_number": "52500794",
+      "description": "ALRICO GASTRONOMICA S.A. DE C.V.",
+      "amount": "-260.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-16",
+      "business": {
+        "name": "ALRICO GASTRONOMICA S.A. DE C.V.",
+        "activity": {
+          "name": "Restaurante"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "RESTAURANTE",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 3,
+      "transaction_number": "34968543",
+      "reference_number": "39697165",
+      "description": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+      "amount": "-51.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-17",
+      "business": {
+        "name": "CADENA COMERCIAL OXXO S.A. DE C.V.",
+        "activity": {
+          "name": "Compra-Venta De Productos Alimentcios Y Cerveza"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "COMPRA-VENTA DE PRODUCTOS ALIMENTCIOS Y CERVEZA",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    },
+    {
+      "accountId": 2,
+      "transaction_number": "99936983",
+      "reference_number": "23971998",
+      "description": "NUEVA WAL MART DE MEXICO S DE RL DE CV",
+      "amount": "-37.00",
+      "status": "A",
+      "type": "1",
+      "date": "2018-11-18",
+      "business": {
+        "name": "NUEVA WAL MART DE MEXICO S DE RL DE CV",
+        "activity": {
+          "name": "Supermercados"
+        }
+      },
+      "details": {
+        "category": "COMERCIO",
+        "product": "",
+        "subcategory": "SUPERMERCADOS",
+        "service": "",
+        "brand": "",
+        "atm": "",
+        "bank": ""
+      }
+    }
+  ]
+}
