@@ -9,7 +9,9 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/xenial64"
 
-  config.vm.network "forwarded_port", guest: 3000, host: 3000
+  config.vm.network :forwarded_port, guest: 3000, host: 3000
+
+  config.vm.synced_folder ".", "/apps/"
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
